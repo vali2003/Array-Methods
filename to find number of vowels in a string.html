@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str=prompt("enter a text");
+        let count=0;
+        arr=str.split('')
+        arr.forEach((itr) => {
+            if(itr=='a'||itr=='e'||itr=='i'||itr=='0'||itr=='u')
+            count++;
+        })
+        document.write(`${count}`)
+
+    </script>
+</body>
+</html>
